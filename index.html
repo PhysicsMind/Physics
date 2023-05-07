@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Bs Science</title>
+	<title>Site Title</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style>
@@ -69,14 +69,33 @@
 			margin-top: 0;
 			line-height: 1.5;
 		}
+		.photos {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			margin-top: 20px;
+		}
+		.photos img {
+			max-width: 200px;
+			max-height: 200px;
+			object-fit: cover;
+			margin: 10px;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			cursor: pointer;
+		}
+		.photos img:hover {
+			transform: scale(1.05);
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+		}
 	</style>
 </head>
 <body>
 	<header>
-		<h1>Bs Science</h1>
+		<h1>Site Title</h1>
 		<nav>
 			<ul>
-				<li><a href="#">Home</a></li>
 				<li><a href="#">About</a></li>
 				<li><a href="#">Contact</a></li>
 			</ul>
@@ -89,8 +108,8 @@
 			<p>Section Content</p>
 		</section>
 		<section>
-			<h2>Section Title</h2>
-			<p>Section Content</p>
+			<h2>Photo Gallery</h2>
+		
 		</section>
 	</main>
 	<footer>
